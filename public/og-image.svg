@@ -1,0 +1,71 @@
+<svg width="1200" height="630" viewBox="0 0 1200 630" fill="none" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <rect width="1200" height="630" fill="#060F1E"/>
+  
+  <!-- Subtle tech circuit/grid pattern -->
+  <defs>
+    <radialGradient id="sunGlow" cx="50%" cy="50%" r="50%">
+      <stop offset="0%" stop-color="#FFC400" stop-opacity="0.25"/>
+      <stop offset="100%" stop-color="#FFC400" stop-opacity="0"/>
+    </radialGradient>
+    <linearGradient id="yellowGrad" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" stop-color="#FFD54F"/>
+      <stop offset="100%" stop-color="#FFB300"/>
+    </linearGradient>
+  </defs>
+
+  <circle cx="280" cy="315" r="280" fill="url(#sunGlow)"/>
+
+  <!-- Brand Symbol -->
+  <g transform="translate(180, 215) scale(1.5)">
+    <!-- Central Sun Core -->
+    <circle cx="100" cy="100" r="26" fill="none" stroke="#FFC400" stroke-width="9"/>
+    
+    <!-- Sun Rays (Left side) -->
+    <rect x="95.5" y="18" width="9" height="44" rx="2" fill="#FFC400"/>
+    <rect x="95.5" y="138" width="9" height="44" rx="2" fill="#FFC400"/>
+    <rect x="18" y="95.5" width="44" height="9" rx="2" fill="#FFC400"/>
+    <rect x="42" y="42" width="9" height="34" rx="2" transform="rotate(-45 46.5 59)" fill="#FFC400"/>
+    <rect x="42" y="140" width="9" height="34" rx="2" transform="rotate(45 46.5 157)" fill="#FFC400"/>
+
+    <!-- Circuit Paths (Right side) -->
+    <path d="M 126 100 L 160 100" stroke="#FFC400" stroke-width="7" stroke-linecap="round"/>
+    <circle cx="170" cy="100" r="7" fill="#FFC400"/>
+
+    <path d="M 120 75 L 148 50 L 168 50" fill="none" stroke="#FFC400" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="176" cy="50" r="6" fill="#FFC400"/>
+
+    <path d="M 120 125 L 148 150 L 168 150" fill="none" stroke="#FFC400" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+    <circle cx="176" cy="150" r="6" fill="#FFC400"/>
+  </g>
+
+  <!-- Typography & Content -->
+  <g transform="translate(560, 210)">
+    <!-- Brand Name -->
+    <text font-family="system-ui, -apple-system, sans-serif" font-weight="900" font-size="76" fill="#FFFFFF" letter-spacing="-1">
+      SUNNY <tspan fill="#FFC400">TECH</tspan>
+    </text>
+    
+    <!-- Tagline Badge -->
+    <rect y="105" width="460" height="42" rx="21" fill="#102D63" stroke="#FFC400" stroke-width="2"/>
+    <text x="23" y="132" font-family="system-ui, -apple-system, sans-serif" font-weight="700" font-size="18" fill="#FFC400" letter-spacing="1">
+      ENTERPRISE DIGITAL SOLUTIONS
+    </text>
+
+    <!-- Description -->
+    <text y="200" font-family="system-ui, -apple-system, sans-serif" font-weight="500" font-size="26" fill="#94A3B8">
+      Thiết Kế Website • Dữ Liệu Lớn • Bản Đồ Số GIS • AI
+    </text>
+
+    <!-- Trust Markers -->
+    <g transform="translate(0, 260)">
+      <circle cx="10" cy="0" r="6" fill="#10B981"/>
+      <text x="26" y="6" font-family="system-ui, -apple-system, sans-serif" font-weight="600" font-size="18" fill="#E2E8F0">
+        Bảo mật chuẩn ISO 27001 • SLA 99.98% • Bàn giao 100% mã nguồn
+      </text>
+    </g>
+  </g>
+
+  <!-- Border accent -->
+  <rect x="0" y="620" width="1200" height="10" fill="url(#yellowGrad)"/>
+</svg>
